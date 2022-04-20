@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #f9f2ec;
+    --secondary-color: #ff9494;
+    --tertiary-color: #57302c;
+    --quaternary-color: #d2c1bc;
+
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
+
+header {
+    background-color: var(--secondary-color);
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: var(--tertiary-color);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 10px;
+    font-size: 25px;
+}
+
+footer {
+    background-color: var(--tertiary-color);
+    color: var(--quaternary-color);
+    padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h2 {
+
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer ul li {
+    padding: 10px;
+}
+
+.about-me {
+   
+}
+
+.my-work {
+    
+}
