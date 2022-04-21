@@ -77,6 +77,8 @@ footer h2 {
     margin: 0;
     border-right: 5px solid var(--primary-color);
     padding: 0 15px;
+    width: 300px;
+    text-align: right;
 }
 
 footer ul {
@@ -89,10 +91,11 @@ footer ul {
 footer ul li {
     padding: 15px 30px;
     font-size: 20px;
+    text-decoration: underline;
 }
 
 footer a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--quaternary-color);
 }
 
@@ -119,6 +122,8 @@ section {
     margin: 0;
     border-right: 5px solid var(--tertiary-color);
     padding: 0 15px;
+    width: 300px;
+    text-align: right;
 }
 
 .my-work {
@@ -133,4 +138,14 @@ section {
     margin: 0;
     border-right: 5px solid var(--tertiary-color);
     padding: 0 15px;
+    width: 300px;
+    text-align: right;
+}
+
+.run-buddy {
+    background-image: url(../images/run-buddy.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
 }
