@@ -28,7 +28,8 @@ header {
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 40px;
+    font-weight: bold;
     color: var(--tertiary-color);
     margin: 0;
 }
@@ -38,16 +39,27 @@ header a {
     color: var(--tertiary-color);
 }
 
+header nav {
+    margin: 7px 0;
+}
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+    align-items: center;
 }
 
 header nav ul li {
     padding: 10px;
     font-size: 25px;
+}
+
+header nav ul li:hover {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    border-radius: 10px;
 }
 
 footer {
@@ -61,7 +73,10 @@ footer {
 }
 
 footer h2 {
-
+    font-size: 35px;
+    margin: 0;
+    border-right: 5px solid var(--primary-color);
+    padding: 0 15px;
 }
 
 footer ul {
@@ -72,13 +87,50 @@ footer ul {
 }
 
 footer ul li {
-    padding: 10px;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--quaternary-color);
+}
+
+section {
+    padding: 60px;
+}
+
+.hero {
+    background-image: url(../images/IMG_8051.jpg);
+    background-size: cover;
+    background-position: 80%;
+    padding: 250px;
 }
 
 .about-me {
-   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.about-me h2 {
+    font-size: 35px;
+    margin: 0;
+    border-right: 5px solid var(--tertiary-color);
+    padding: 0 15px;
 }
 
 .my-work {
-    
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.my-work h2 {
+    font-size: 35px;
+    margin: 0;
+    border-right: 5px solid var(--tertiary-color);
+    padding: 0 15px;
 }
