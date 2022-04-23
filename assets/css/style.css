@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: #f9f2ec;
-    --secondary-color: #ff9494;
-    --tertiary-color: #57302c;
-    --quaternary-color: #d2c1bc;
+    --primary-color: #efeae4;
+    --secondary-color: #e6d6c6;
+    --tertiary-color: #4e5255;
+    --quaternary-color: #606f76;
 
 }
 
@@ -63,8 +63,8 @@ header nav ul li:hover {
 }
 
 footer {
-    background-color: var(--tertiary-color);
-    color: var(--quaternary-color);
+    background-color: var(--quaternary-color);
+    color: var(--primary-color);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -98,7 +98,7 @@ footer ul li {
 
 footer a {
     text-decoration: underline;
-    color: var(--quaternary-color);
+    color: var(--primary-color);
 }
 
 section {
@@ -116,7 +116,7 @@ section {
 .hero h2 {
     background-color: var(--tertiary-color);
     font-size: 40px;
-    color: var(--quaternary-color);
+    color: var(--secondary-color);
     position: absolute;
     bottom: 40px;
     right: 40px;
