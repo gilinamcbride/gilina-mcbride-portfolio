@@ -135,6 +135,7 @@ section {
    flex-wrap: wrap;
    justify-content: space-around;
    display: flex;
+   border: 5px solid yellow;
 }
 
 .my-work h2 {
@@ -144,28 +145,88 @@ section {
     padding: 0 15px;
     text-align: right;
     flex: 0 0 20%;
+    border: 5px solid #ff9494;
 }
 
 .work {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex: 0 0 80%;
+    border: 5px solid #57302c;
 }
 
 .run-buddy {
     background-image: url(../images/run-buddy.jpg);
     background-size: cover;
-    padding: 20px 50px;
-    flex: 0 0 80%;
+    padding: 20px 100px;
+    flex: 1 100%;
     margin: 10px;
     height: 300px;
+    border: 3px solid var(--tertiary-color);
 }
 
-.placeholder {
-    flex: 0 0 20%;
-    padding-top: 10px;
+.run-buddy div {
+    background-color: var(--secondary-color);
 }
+
+.placeholder1 {
+    border: 3px solid var(--tertiary-color);
+    flex: auto;
+    margin: 10px 10px;
+    height: 200px;
+    background-image: url(../images/IMG_8078.jpg);
+    background-size: cover;
+    padding: 20px 100px;
+}
+
+.placeholder1 div {
+    background-color: var(--secondary-color);
+}
+
+.placeholder2 {
+    border: 3px solid var(--tertiary-color);
+    flex: auto;
+    margin: 10px 10px;
+    height: 200px;
+    background-image: url(../images/IMG_8252.jpg);
+    background-size: cover;
+    padding: 20px 100px;
+}
+
+.placeholder2 div {
+    background-color: var(--secondary-color);
+}
+
+.placeholder3 {
+    border: 3px solid var(--tertiary-color);
+    flex: auto;
+    margin: 10px 10px;
+    height: 200px;
+    background-image: url(../images/IMG_8191.jpg);
+    background-size: cover;
+    padding: 20px 100px;
+}
+
+.placeholder3 div {
+    background-color: var(--secondary-color);
+}
+
+.placeholder4 {
+    border: 3px solid var(--tertiary-color);
+    flex: auto;
+    margin: 10px 10px;
+    height: 200px;
+    background-image: url(../images/IMG_8117.jpg);
+    background-size: cover;
+    padding: 20px 100px;
+}
+
+.placeholder4 div {
+    background-color: var(--secondary-color);
+}
+
+
 
 /* MEDIA QUERIES */
 @media screen and (max-width:980px) {
