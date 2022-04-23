@@ -142,6 +142,7 @@ section {
 .about-me p {
     flex: 0 0 80%;
     padding: 0 25px;
+    font-size: 20px;
 }
 
 .my-work {
@@ -187,13 +188,13 @@ section {
 }
 
 .placeholder1 {
-    border: 3px solid var(--tertiary-color);
-    position: relative;
-    flex: auto;
-    margin: 10px 10px;
-    height: 200px;
     background-image: url(../images/IMG_8078.jpg);
     background-size: cover;
+    border: 3px solid var(--tertiary-color);
+    flex: auto;
+    position: relative;
+    margin: 10px 10px;
+    height: 200px;
     padding: 20px 100px;
 }
 
@@ -206,13 +207,13 @@ section {
 }
 
 .placeholder2 {
+    background-image: url(../images/IMG_8252.jpg);
+    background-size: cover;
     border: 3px solid var(--tertiary-color);
     position: relative;
     flex: auto;
     margin: 10px 10px;
     height: 200px;
-    background-image: url(../images/IMG_8252.jpg);
-    background-size: cover;
     padding: 20px 100px;
 }
 
@@ -225,11 +226,11 @@ section {
 }
 
 .placeholder3 {
+    background-image: url(../images/IMG_8191.jpg);
+    background-size: cover;
     border: 3px solid var(--tertiary-color);
     margin: 10px 10px;
     height: 200px;
-    background-image: url(../images/IMG_8191.jpg);
-    background-size: cover;
     padding: 20px 100px;
     position: relative;
     flex: auto;
@@ -244,13 +245,13 @@ section {
 }
 
 .placeholder4 {
+    background-image: url(../images/canyon.jpg);
+    background-size: cover;
     border: 3px solid var(--tertiary-color);
     position: relative;
     flex: auto;
     margin: 10px 10px;
     height: 200px;
-    background-image: url(../images/IMG_8117.jpg);
-    background-size: cover;
     padding: 20px 100px;
 }
 
