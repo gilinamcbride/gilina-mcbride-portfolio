@@ -185,6 +185,8 @@ section {
     bottom: 40px;
     left: 0;
     padding: 10px 20px;
+    text-decoration: none;
+    color: var(--tertiary-color);
 }
 
 .placeholder1 {
