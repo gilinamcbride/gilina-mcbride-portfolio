@@ -120,6 +120,7 @@ section {
     position: absolute;
     bottom: 40px;
     right: 40px;
+    padding: 10px 20px;
 }
 
 .about-me {
@@ -174,14 +175,20 @@ section {
     margin: 10px;
     height: 300px;
     border: 3px solid var(--tertiary-color);
+    position: relative;
 }
 
 .run-buddy div {
     background-color: var(--secondary-color);
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    padding: 10px 20px;
 }
 
 .placeholder1 {
     border: 3px solid var(--tertiary-color);
+    position: relative;
     flex: auto;
     margin: 10px 10px;
     height: 200px;
@@ -192,10 +199,15 @@ section {
 
 .placeholder1 div {
     background-color: var(--secondary-color);
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    padding: 10px 20px;
 }
 
 .placeholder2 {
     border: 3px solid var(--tertiary-color);
+    position: relative;
     flex: auto;
     margin: 10px 10px;
     height: 200px;
@@ -206,24 +218,34 @@ section {
 
 .placeholder2 div {
     background-color: var(--secondary-color);
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    padding: 10px 20px;
 }
 
 .placeholder3 {
     border: 3px solid var(--tertiary-color);
-    flex: auto;
     margin: 10px 10px;
     height: 200px;
     background-image: url(../images/IMG_8191.jpg);
     background-size: cover;
     padding: 20px 100px;
+    position: relative;
+    flex: auto;
 }
 
 .placeholder3 div {
     background-color: var(--secondary-color);
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    padding: 10px 20px;
 }
 
 .placeholder4 {
     border: 3px solid var(--tertiary-color);
+    position: relative;
     flex: auto;
     margin: 10px 10px;
     height: 200px;
@@ -234,6 +256,10 @@ section {
 
 .placeholder4 div {
     background-color: var(--secondary-color);
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    padding: 10px 20px;
 }
 
 
