@@ -110,6 +110,16 @@ section {
     background-size: cover;
     background-position: 80%;
     padding: 250px;
+    position: relative;
+}
+
+.hero h2 {
+    background-color: var(--tertiary-color);
+    font-size: 40px;
+    color: var(--quaternary-color);
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
 }
 
 .about-me {
