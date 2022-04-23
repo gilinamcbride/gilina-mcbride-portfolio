@@ -128,7 +128,7 @@ section {
 
 .about-me p {
     flex: 0 0 80%;
-    padding: 10px;
+    padding: 0 25px;
 }
 
 .my-work {
@@ -156,8 +156,30 @@ section {
 .run-buddy {
     background-image: url(../images/run-buddy.jpg);
     background-size: cover;
-    width: 300px;
-    height: 150px;
-    padding: 10px;
+    padding: 20px 50px;
     flex: 0 0 80%;
+    margin: 10px;
+    height: 300px;
+}
+
+.placeholder {
+    flex: 0 0 20%;
+    padding-top: 10px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+    .about-me h2 {
+        border-right: none;
+        border-bottom: 5px solid var(--tertiary-color);
+    }
+
 }
