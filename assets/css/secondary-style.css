@@ -6,6 +6,22 @@ body {
     flex-direction: column;
 }
 
+body h2 {
+    font-size: 40px;
+}
+
+body p {
+    font-size: 20px;
+}
+
+body h3 {
+    font-size: 30px;
+}
+
+body h4 {
+    font-size: 25px;
+}
+
 body section {
     flex: 1 0 auto;
 }

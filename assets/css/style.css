@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color: #efeae4;
+    --primary-color: #Fff3e9;
     --secondary-color: #e6d6c6;
     --tertiary-color: #4e5255;
     --quaternary-color: #606f76;
@@ -85,7 +85,7 @@ footer ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex: 0 0 80%;
     padding: 0 25px;
 }
@@ -114,7 +114,7 @@ section {
 }
 
 .hero h2 {
-    background-color: var(--tertiary-color);
+    background-color: var(--quaternary-color);
     font-size: 40px;
     color: var(--secondary-color);
     position: absolute;
@@ -286,11 +286,25 @@ section {
     .hero h2 {
         font-size: 30px;
     }
+
+    footer h2 {
+        flex: 0 0 25%;
+    }
+
+    footer ul {
+        flex: 0 0 75%;
+        justify-content: space-evenly;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
     section {
         padding: 20px;
+    }
+
+    header h1 {
+        font-size: 45px;
     }
 
     footer {
@@ -304,7 +318,7 @@ section {
     }
 
     footer ul {
-        border-top: 5px solid var(--quaternary-color);
+        border-top: 5px solid var(--primary-color);
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
@@ -333,6 +347,7 @@ section {
     .about-me p {
         border-top: 5px solid var(--tertiary-color);
         padding: 10px 0;
+        text-align: center;
     }
 
     .my-work {
