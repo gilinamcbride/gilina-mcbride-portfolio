@@ -28,4 +28,41 @@ body section {
 
 footer {
     flex-shrink: 0;
+    color: var(--primary-color);
+    background-color: var(--quaternary-color);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 60px;
+}
+
+footer h2 {
+    font-size: 35px;
+    margin: 0;
+    border-right: 5px solid var(--primary-color);
+    padding: 0 15px;
+    text-align: right;
+    flex: 0 0 20%;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 0 0 80%;
+    padding: 0 25px;
+}
+
+footer ul li {
+    padding: 15px 25px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+footer a {
+    text-decoration: underline;
+    color: var(--primary-color);
 }
