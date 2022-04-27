@@ -12,12 +12,23 @@
 
 }
 
+/* body styles */
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: var(--primary-color);
     color: var(--tertiary-color);
 }
 
+section {
+    padding: 60px;
+}
+
+main {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+/* header styles */
 header {
     background-color: var(--secondary-color);
     padding: 20px 35px;
@@ -61,64 +72,23 @@ header nav ul li:hover {
     color: var(--tertiary-color);
     border-radius: 10px;
 }
+/* end header styles */
 
+/* footer styles */
 footer {
     background-color: var(--quaternary-color);
     padding: 30px;
+    margin: 20px auto 0 auto;
 }
 
 footer p {
     color: var(--primary-color);
     text-align: right;
 }
+/* end footer styles */
 
-section {
-    padding: 60px;
-}
 
-main {
-    max-width: 95%;
-    margin: 0 auto;
-}
-
-.contact-me {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 20px 60px;
-}
-
-.contact-me h2 {
-    font-size: 35px;
-    margin: 0;
-    border-right: 5px solid var(--tertiary-color);
-    padding: 0 15px;
-    text-align: right;
-    flex: 0 0 20%;
-}
-
-.contact-me ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex: 0 0 80%;
-    padding: 0 25px;
-}
-
-.contact-me ul li {
-    padding: 15px 25px;
-    font-size: 20px;
-    text-decoration: underline;
-}
-
-.contact-me a {
-    text-decoration: underline;
-    color: var(--tertiary-color);
-}
-
+/* hero styles */
 .hero {
     background-image: url(../images/IMG_8051.jpg);
     background-size: cover;
@@ -136,7 +106,9 @@ main {
     right: 40px;
     padding: 10px 20px;
 }
+/* end hero styles */
 
+/* about me section styles */
 .about-me {
    display: flex;
    flex-wrap: wrap;
@@ -158,7 +130,9 @@ main {
     padding: 0 25px;
     font-size: 20px;
 }
+/* about me styles end */
 
+/* my work styles */
 .my-work {
    flex-wrap: wrap;
    justify-content: space-around;
@@ -203,8 +177,7 @@ main {
     color: var(--tertiary-color);
 }
 
-.placeholder1 {
-    background-image: url(../images/IMG_8078.jpg);
+.placeholder1, .placeholder2, .placeholder3, .placeholder4 {
     background-size: cover;
     border: 3px solid var(--tertiary-color);
     flex: auto;
@@ -214,64 +187,23 @@ main {
     padding: 20px 100px;
 }
 
-.placeholder1 div {
-    background-color: var(--secondary-color);
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    padding: 10px 20px;
+.placeholder1 {
+    background-image: url(../images/IMG_8078.jpg);
 }
 
 .placeholder2 {
     background-image: url(../images/IMG_8252.jpg);
-    background-size: cover;
-    border: 3px solid var(--tertiary-color);
-    position: relative;
-    flex: auto;
-    margin: 10px 10px;
-    height: 200px;
-    padding: 20px 100px;
-}
-
-.placeholder2 div {
-    background-color: var(--secondary-color);
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    padding: 10px 20px;
 }
 
 .placeholder3 {
     background-image: url(../images/IMG_8191.jpg);
-    background-size: cover;
-    border: 3px solid var(--tertiary-color);
-    margin: 10px 10px;
-    height: 200px;
-    padding: 20px 100px;
-    position: relative;
-    flex: auto;
-}
-
-.placeholder3 div {
-    background-color: var(--secondary-color);
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    padding: 10px 20px;
 }
 
 .placeholder4 {
     background-image: url(../images/canyon.jpg);
-    background-size: cover;
-    border: 3px solid var(--tertiary-color);
-    position: relative;
-    flex: auto;
-    margin: 10px 10px;
-    height: 200px;
-    padding: 20px 100px;
 }
 
-.placeholder4 div {
+.placeholder1 div, .placeholder2 div, .placeholder3 div, .placeholder4 div {
     background-color: var(--secondary-color);
     position: absolute;
     bottom: 20px;
@@ -279,6 +211,43 @@ main {
     padding: 10px 20px;
 }
 
+/* my work styles end */
+
+/* contact me styles */
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 60px;
+}
+
+.contact-me h2 {
+    font-size: 35px;
+    margin: 0;
+    border-right: 5px solid var(--tertiary-color);
+    padding: 0 15px;
+    text-align: right;
+    flex: 0 0 20%;
+}
+
+.contact-me ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 0 0 80%;
+    padding: 0 25px;
+}
+
+.contact-me ul li, .contact-me ul li a {
+    padding: 15px 25px;
+    font-size: 20px;
+    text-decoration: underline;
+    color: var(--tertiary-color);
+}
+/* contact me styles */
 
 
 /* MEDIA QUERIES */
