@@ -64,24 +64,42 @@ header nav ul li:hover {
 
 footer {
     background-color: var(--quaternary-color);
+    padding: 30px;
+}
+
+footer p {
     color: var(--primary-color);
+    text-align: right;
+}
+
+section {
+    padding: 60px;
+}
+
+main {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.contact-me {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     padding: 20px 60px;
 }
 
-footer h2 {
+.contact-me h2 {
     font-size: 35px;
     margin: 0;
-    border-right: 5px solid var(--primary-color);
+    border-right: 5px solid var(--tertiary-color);
     padding: 0 15px;
     text-align: right;
     flex: 0 0 20%;
 }
 
-footer ul {
+.contact-me ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -90,19 +108,15 @@ footer ul {
     padding: 0 25px;
 }
 
-footer ul li {
+.contact-me ul li {
     padding: 15px 25px;
     font-size: 20px;
     text-decoration: underline;
 }
 
-footer a {
+.contact-me a {
     text-decoration: underline;
-    color: var(--primary-color);
-}
-
-section {
-    padding: 60px;
+    color: var(--tertiary-color);
 }
 
 .hero {
@@ -287,14 +301,14 @@ section {
         font-size: 30px;
     }
 
-    footer h2 {
+    /* footer h2 {
         flex: 0 0 25%;
     }
 
-    footer ul {
+    /* footer ul {
         flex: 0 0 75%;
         justify-content: space-evenly;
-    }
+    } */
 
 }
 
@@ -307,17 +321,17 @@ section {
         font-size: 45px;
     }
 
-    footer {
+    .contact-me {
         padding: 20px;
     }
 
-    footer h2 {
+    .contact-me h2 {
        padding: 0 100px;
        text-align: center;
        border: none;
     }
 
-    footer ul {
+    .contact-me ul {
         border-top: 5px solid var(--primary-color);
         flex-direction: column;
         justify-content: space-evenly;
