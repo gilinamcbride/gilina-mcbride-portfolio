@@ -282,7 +282,7 @@ main {
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width:980px) {
+@media screen and (max-width:941px) {
     header h1 {
         font-size: 35px;
     }
@@ -291,61 +291,12 @@ main {
         font-size: 20px;
     }
 
-    .hero h2 {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .hero h2 {
-        font-size: 30px;
-    }
-
-    /* footer h2 {
-        flex: 0 0 25%;
-    }
-
-    /* footer ul {
-        flex: 0 0 75%;
-        justify-content: space-evenly;
-    } */
-
-}
-
-@media screen and (max-width: 575px) {
     section {
         padding: 20px;
     }
 
-    header h1 {
-        font-size: 45px;
-    }
-
-    .contact-me {
-        padding: 20px;
-    }
-
-    .contact-me h2 {
-       padding: 0 100px;
-       text-align: center;
-       border: none;
-    }
-
-    .contact-me ul {
-        border-top: 5px solid var(--primary-color);
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        margin: 10px 0;
-        padding: 10px 0;
-    }
-
-    .hero {
-        background-position: center;
-    }
-
     .hero h2 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .about-me {
@@ -356,6 +307,7 @@ main {
         border: none;
         padding: 10px 50px;
         text-align: center;
+        flex: 1;
     }
 
     .about-me p {
@@ -372,11 +324,58 @@ main {
         border: none;
         padding: 10px 50px;
         text-align: center;
+        flex: 1;
     }
 
     .work {
         border-top: 5px solid var(--tertiary-color);
         padding: 10px 0;
+    }
+
+    .contact-me h2 {
+       padding: 0 100px;
+       text-align: center;
+       border: none;
+       flex: 1;
+    }
+
+    .contact-me ul {
+        border-top: 5px solid var(--tertiary-color);
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 10px 0;
+        padding: 10px 0;
+    }
+
+}
+
+@media screen and (max-width: 721px) {
+    header h1 {
+        font-size: 40px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    section {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 45px;
+    }
+
+    .hero {
+        background-position: center;
+    }
+
+    .hero h2 {
+        font-size: 25px;
     }
 
     .run-buddy {
