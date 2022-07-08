@@ -5,357 +5,108 @@
 }
 
 :root {
-  --primary-color: #fff3e9;
-  --secondary-color: #e6d6c6;
-  --tertiary-color: #4e5255;
-  --quaternary-color: #606f76;
+  --primary-color: #e00244;
+  --secondary-color: #f1e8e8;
+  --tertiary-color: #292929;
+  /* --quaternary-color: #606f76; */
 }
 
 /* body styles */
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: var(--primary-color);
-  color: var(--tertiary-color);
-}
-
-section {
-  padding: 60px;
-}
-
-main {
-  max-width: 95%;
-  margin: 0 auto;
-}
-
-/* header styles */
-header {
   background-color: var(--secondary-color);
-  padding: 20px 35px;
+  color: var(--tertiary-color);
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
 }
 
-header h1 {
-  font-size: 50px;
-  font-weight: bold;
-  color: var(--tertiary-color);
-  margin: 0;
+header {
+  background-color: var(--primary-color);
+  margin: 10px;
+  flex: 100%;
+  height: 200px;
+  padding: 20px;
 }
-
-header a {
-  text-decoration: none;
-  color: var(--tertiary-color);
-}
-
-header nav {
-  margin: 7px 0;
-}
-
-header nav ul {
+.about-me {
+  border: solid var(--tertiary-color) 5px;
+  margin: 10px;
+  flex: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  list-style: none;
-  align-items: center;
 }
 
-header nav ul li {
-  padding: 10px;
-  font-size: 25px;
+.personal-info {
+  border: solid var(--primary-color) 5px;
+  flex: 0 0 49%;
+  height: 600px;
 }
 
-header nav ul li:hover {
-  background-color: var(--primary-color);
-  color: var(--tertiary-color);
-  border-radius: 10px;
-}
-/* end header styles */
-
-/* footer styles */
-footer {
-  background-color: var(--quaternary-color);
-  padding: 30px;
-  margin: 20px auto 0 auto;
-}
-
-footer p {
-  color: var(--primary-color);
-  text-align: right;
-}
-/* end footer styles */
-
-/* hero styles */
-.hero {
-  background-image: url(../images/IMG_8051.jpg);
+.photo {
+  background-image: url(../images/gilina-in-red.JPG);
   background-size: cover;
-  background-position: 80%;
-  padding: 250px;
-  position: relative;
-}
-
-.hero h2 {
-  background-color: var(--quaternary-color);
-  font-size: 40px;
-  color: var(--secondary-color);
-  position: absolute;
-  bottom: 40px;
-  right: 40px;
-  padding: 10px 20px;
-}
-/* end hero styles */
-
-/* about me section styles */
-.about-me {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding-bottom: 30px;
-}
-
-.about-me h2 {
-  font-size: 35px;
-  margin: 0;
-  border-right: 5px solid var(--tertiary-color);
-  padding: 0 15px;
-  text-align: right;
-  flex: 0 0 20%;
-}
-
-.about-me p {
-  flex: 0 0 80%;
-  padding: 0 25px;
-  font-size: 20px;
-}
-/* about me styles end */
-
-/* my work styles */
-.my-work {
-  flex-wrap: wrap;
-  justify-content: space-around;
-  display: flex;
-  padding-top: 30px;
-}
-
-.my-work h2 {
-  font-size: 35px;
-  margin: 0;
-  border-right: 5px solid var(--tertiary-color);
-  padding: 0 15px;
-  text-align: right;
-  flex: 0 0 20%;
+  border: solid var(--primary-color) 5px;
+  flex: 0 0 49%;
+  height: 600px;
 }
 
 .work {
+  border: solid var(--tertiary-color) 5px;
+  margin: 10px;
+  flex: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.work p {
+  flex: 100%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.work-example {
+  border: solid white 5px;
+  flex: 0 0 30%;
+  height: 300px;
+}
+
+.contact {
+  border: solid var(--tertiary-color) 5px;
+  margin: 10px;
+  flex: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex: 0 0 80%;
 }
 
-.run-buddy {
-  background-image: url(../images/run-buddy.jpg);
-  background-size: cover;
-  padding: 20px 100px;
-  flex: 1 100%;
+.links {
+  border: solid var(--primary-color) 5px;
+  flex: 0 0 49%;
+  height: 600px;
+}
+
+.email {
+  border: solid var(--primary-color) 5px;
+  flex: 0 0 49%;
+  height: 600px;
+}
+
+footer {
+  border: solid var(--tertiary-color) 5px;
   margin: 10px;
-  height: 300px;
-  border: 3px solid var(--tertiary-color);
-  position: relative;
+  flex: 100%;
+  height: 150px;
 }
-
-.run-buddy div {
-  background-color: var(--secondary-color);
-  position: absolute;
-  bottom: 40px;
-  left: 0;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: var(--tertiary-color);
-}
-
-.pregame,
-.weather-dashboard,
-.placeholder3,
-.placeholder4 {
-  background-size: cover;
-  border: 3px solid var(--tertiary-color);
-  flex: auto;
-  position: relative;
-  margin: 10px 10px;
-  height: 200px;
-  padding: 20px 100px;
-}
-
-.pregame {
-  background-image: url(../images/pregame-screenshot.png);
-}
-
-.weather-dashboard {
-  background-image: url(../images/weather-dashboard.png);
-}
-
-.placeholder3 {
-  background-image: url(../images/IMG_8191.jpg);
-}
-
-.placeholder4 {
-  background-image: url(../images/canyon.jpg);
-}
-
-.pregame div,
-.weather-dashboard div,
-.placeholder3 div,
-.placeholder4 div {
-  background-color: var(--secondary-color);
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: var(--tertiary-color);
-}
-
-/* my work styles end */
-
-/* contact me styles */
-.contact-me {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 20px 60px;
-}
-
-.contact-me h2 {
-  font-size: 35px;
-  margin: 0;
-  border-right: 5px solid var(--tertiary-color);
-  padding: 0 15px;
-  text-align: right;
-  flex: 0 0 20%;
-}
-
-.contact-me ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  flex: 0 0 80%;
-  padding: 0 25px;
-}
-
-.contact-me ul li,
-.contact-me ul li a {
-  padding: 15px 25px;
-  font-size: 20px;
-  text-decoration: underline;
-  color: var(--tertiary-color);
-}
-/* contact me styles */
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 941px) {
-  header h1 {
-    font-size: 35px;
-  }
-
-  header nav {
-    font-size: 20px;
-  }
-
-  section {
-    padding: 20px;
-  }
-
-  .hero h2 {
-    font-size: 30px;
-  }
-
-  .about-me {
-    padding-bottom: 10px;
-  }
-
-  .about-me h2 {
-    border: none;
-    padding: 10px 50px;
-    text-align: center;
-    flex: 1;
-  }
-
-  .about-me p {
-    border-top: 5px solid var(--tertiary-color);
-    padding: 10px 0;
-    text-align: center;
-  }
-
-  .my-work {
-    padding-top: 10px;
-  }
-
-  .my-work h2 {
-    border: none;
-    padding: 10px 50px;
-    text-align: center;
-    flex: 1;
-  }
-
-  .work {
-    border-top: 5px solid var(--tertiary-color);
-    padding: 10px 0;
-  }
-
-  .contact-me h2 {
-    padding: 0 100px;
-    text-align: center;
-    border: none;
-    flex: 1;
-  }
-
-  .contact-me ul {
-    border-top: 5px solid var(--tertiary-color);
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 10px 0;
-    padding: 10px 0;
-  }
 }
 
 @media screen and (max-width: 721px) {
-  header h1 {
-    font-size: 40px;
-  }
-
-  .hero h2 {
-    font-size: 30px;
-  }
 }
 
 @media screen and (max-width: 575px) {
-  section {
-    padding: 20px;
-  }
-
-  header h1 {
-    font-size: 45px;
-  }
-
-  .hero {
-    background-position: center;
-  }
-
-  .hero h2 {
-    font-size: 25px;
-  }
-
-  .run-buddy {
-    height: 200px;
-  }
-
-  .run-buddy div {
-    bottom: 20px;
-  }
 }
