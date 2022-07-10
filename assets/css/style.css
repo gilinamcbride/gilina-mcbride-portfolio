@@ -8,7 +8,7 @@
   --primary-color: #e00244;
   --secondary-color: #f1e8e8;
   --tertiary-color: #292929;
-  /* --quaternary-color: #606f76; */
+  --quaternary-color: #f8b0bf;
 }
 
 /* body styles */
@@ -23,14 +23,19 @@ body {
 
 header {
   background-color: var(--primary-color);
-  margin: 10px;
-  flex: 100%;
-  height: 200px;
+  margin: 30px 30px 15px 30px;
+  flex: 200%;
+  height: 450px;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
+
 .about-me {
-  border: solid var(--tertiary-color) 5px;
-  margin: 10px;
+  /* border: solid var(--tertiary-color) 5px; */
+  margin: 15px 30px;
   flex: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -38,22 +43,28 @@ header {
 }
 
 .personal-info {
-  border: solid var(--primary-color) 5px;
+  /* border: solid var(--primary-color) 5px; */
   flex: 0 0 49%;
   height: 600px;
+  background-color: #f8b0bf;
+  padding: 30px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .photo {
-  background-image: url(../images/gilina-in-red.JPG);
+  background-image: url(../images/gilina_overlay.png);
   background-size: cover;
-  border: solid var(--primary-color) 5px;
+  /* border: solid var(--primary-color) 5px; */
   flex: 0 0 49%;
   height: 600px;
 }
 
 .work {
   border: solid var(--tertiary-color) 5px;
-  margin: 10px;
+  margin: 15px 30px;
   flex: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -75,7 +86,7 @@ header {
 
 .contact {
   border: solid var(--tertiary-color) 5px;
-  margin: 10px;
+  margin: 15px 30px;
   flex: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -86,19 +97,41 @@ header {
   border: solid var(--primary-color) 5px;
   flex: 0 0 49%;
   height: 600px;
+  padding: 30px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .email {
   border: solid var(--primary-color) 5px;
   flex: 0 0 49%;
   height: 600px;
+  padding: 30px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
-  border: solid var(--tertiary-color) 5px;
-  margin: 10px;
+  /* border: solid var(--tertiary-color) 5px; */
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  margin: 15px 30px 30px 30px;
   flex: 100%;
-  height: 150px;
+  padding: 0 20px;
+  height: 175px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  text-align: right;
+  font-size: 20px;
 }
 
 /* MEDIA QUERIES */
