@@ -90,7 +90,8 @@ header {
 }
 
 .photo {
-  background-image: url(../images/gilina_overlay.png);
+  background-image: url(../images/IMG_0133.JPG);
+  background-position: center left;
   background-size: cover;
   flex: 0 0 49%;
   height: 600px;
@@ -125,7 +126,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border: solid yellow 5px;
+  /* border: solid yellow 5px; */
 }
 
 .work-example {
@@ -170,7 +171,7 @@ header {
 }
 
 .click {
-  border: solid yellow 5px;
+  /* border: solid yellow 5px; */
   margin-top: 20px;
   text-align: center;
 }
