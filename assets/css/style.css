@@ -21,6 +21,7 @@ body {
   align-items: center;
 }
 
+/* HEADER SECTION */
 header {
   background-image: url(../images/header.svg);
   background-size: cover;
@@ -34,6 +35,7 @@ header {
   justify-content: center;
   align-items: center;
   position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .work-nav {
@@ -45,6 +47,10 @@ header {
   font-size: 25px;
 }
 
+.work-nav:hover {
+  color: var(--secondary-color);
+}
+
 .contact-nav {
   position: absolute;
   right: 40px;
@@ -54,6 +60,11 @@ header {
   font-size: 25px;
 }
 
+.contact-nav:hover {
+  color: var(--secondary-color);
+}
+
+/* ABOUT ME SECTION */
 .about-me {
   margin: 15px 30px;
   flex: 100%;
@@ -74,7 +85,7 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  box-shadow: 5px 5px 25px #888888;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .personal-info h1 {
@@ -91,9 +102,10 @@ header {
   background-size: cover;
   flex: 0 0 49%;
   height: 600px;
-  box-shadow: 5px 5px 25px #888888;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+/* WORK SECTION */
 .work-section {
   border: solid var(--tertiary-color) 5px;
   background-color: var(--tertiary-color);
@@ -106,6 +118,7 @@ header {
   justify-content: center;
   padding-bottom: 50px;
   padding-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .info {
@@ -216,6 +229,7 @@ header {
   background-color: var(--quaternary-color);
 }
 
+/* CONTACT ME SECTION */
 .contact {
   margin: 15px 30px;
   flex: 100%;
@@ -241,7 +255,7 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: left;
-  box-shadow: 5px 5px 25px #888888;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   color: var(--secondary-color);
 }
 
@@ -257,7 +271,7 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: left;
-  box-shadow: 5px 5px 25px #888888;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .link-list {
@@ -272,6 +286,14 @@ header {
   text-decoration: none;
   line-height: 2;
   font-size: 25px;
+}
+
+.links a:hover {
+  color: var(--tertiary-color);
+}
+
+.links li:hover {
+  color: var(--tertiary-color);
 }
 
 .email p {
@@ -291,6 +313,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 /* MEDIA QUERIES */
 
