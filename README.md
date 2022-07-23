@@ -12,5 +12,6 @@ My application displays a portfolio of my work samples, resume, and contact info
 
 [Link to deployed application](https://gilinamcbride.github.io/gilina-mcbride-portfolio/)
 
-##Questions?
+## Questions?
+
 For any questions, please email gilinamcbride@gmail.com, or visit any other projects on Github.
