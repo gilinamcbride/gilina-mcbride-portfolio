@@ -186,7 +186,7 @@ header {
 .work4 {
   height: 300px;
   border: var(--secondary-color) solid 2px;
-  background-image: url(../images/profile-generator.svg);
+  background-image: url(../images/travel_blog.svg);
   background-size: cover;
   background-position: center;
   position: relative;
