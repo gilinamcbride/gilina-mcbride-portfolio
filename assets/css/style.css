@@ -149,6 +149,10 @@ header {
   flex: 45%;
 }
 
+.work-text h2 {
+  font-family: brownsugar, serif;
+}
+
 .work4 {
   height: 400px;
   border: var(--secondary-color) solid 2px;
@@ -300,6 +304,24 @@ header {
   font-size: 20px;
 }
 
+/* SKILLS STYLES */
+
+.skills {
+  height: 100px;
+  margin: 15px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.skills h2 {
+  font-size: 35px;
+  font-family: brownsugar, serif;
+}
+
+/* FOOTER STYLES */
 footer {
   color: var(--secondary-color);
   background-image: url(../images/footer.svg);

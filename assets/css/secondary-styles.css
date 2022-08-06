@@ -6,8 +6,6 @@ header {
 
 .projects-title {
   height: 100px;
-  /* background-color: var(--secondary-color); */
-  /* border: var(--primary-color) solid 2px; */
   margin: 15px 30px;
   display: flex;
   flex-wrap: wrap;
@@ -17,8 +15,8 @@ header {
 }
 
 .projects-title h1 {
-  color: var(--primary-color);
-  font-size: 45px;
+  color: var(--tertiary-color);
+  font-size: 35px;
   font-family: brownsugar, serif;
 }
 
