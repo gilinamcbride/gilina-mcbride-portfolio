@@ -307,18 +307,26 @@ header {
 /* SKILLS STYLES */
 
 .skills {
-  height: 100px;
   margin: 15px 30px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px;
 }
 
 .skills h2 {
   font-size: 35px;
   font-family: brownsugar, serif;
+  margin-bottom: 20px;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /* FOOTER STYLES */
@@ -333,7 +341,6 @@ footer {
   height: 175px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
