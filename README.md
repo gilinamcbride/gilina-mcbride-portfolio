@@ -10,6 +10,8 @@ My application displays a portfolio of my work samples, resume, and contact info
 
 ## My Application
 
+![portfolio screenshot](./assets/images/screenshot.png)
+
 [Link to deployed application](https://gilinamcbride.github.io/gilina-mcbride-portfolio/)
 
 ## Questions?
