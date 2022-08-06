@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: brownsugar;
+  src: url(../fonts/Brown_Sugar.ttf);
+}
+
 :root {
   --primary-color: #e00244;
   --secondary-color: #f1e8e8;
@@ -13,12 +18,9 @@
 
 /* body styles */
 body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Old Standard TT", serif;
   background-color: var(--secondary-color);
   color: var(--tertiary-color);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 /* HEADER SECTION */
@@ -44,7 +46,8 @@ header {
   top: 40px;
   text-decoration: none;
   color: var(--tertiary-color);
-  font-size: 25px;
+  font-size: 40px;
+  font-family: brownsugar, serif;
 }
 
 .work-nav:hover {
@@ -57,7 +60,8 @@ header {
   top: 40px;
   text-decoration: none;
   color: var(--tertiary-color);
-  font-size: 25px;
+  font-size: 40px;
+  font-family: brownsugar, serif;
 }
 
 .contact-nav:hover {
@@ -90,6 +94,7 @@ header {
 
 .personal-info h1 {
   font-size: 50px;
+  font-family: brownsugar, serif;
 }
 
 .personal-info p {
@@ -128,85 +133,56 @@ header {
 
 .info h1 {
   font-size: 50px;
+  font-family: brownsugar, serif;
 }
 
-.work {
+.new-work1 {
+  margin: 15px 30px;
+  flex: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
-.work-example {
-  background-color: var(--secondary-color);
-  flex: 0 0 40%;
-  height: 300px;
-  border: var(--secondary-color) solid 2px;
-  margin-top: 40px;
-}
-
-.title {
-  background-color: var(--quaternary-color);
-  color: var(--tertiary-color);
-  height: 75px;
-  padding-top: 20px;
-}
-
-.title p {
-  text-align: center;
-  font-size: 25px;
-}
-
-.work1 {
-  height: 300px;
-  border: var(--secondary-color) solid 2px;
-  background-image: url(../images/weather_image.svg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.work2 {
-  height: 300px;
-  border: var(--secondary-color) solid 2px;
-  background-image: url(../images/pregame_image.svg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.work3 {
-  height: 300px;
-  border: var(--secondary-color) solid 2px;
-  background-image: url(../images/tech_blog.svg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
+.work-photo,
+.work-text {
+  flex: 45%;
 }
 
 .work4 {
-  height: 300px;
+  height: 400px;
   border: var(--secondary-color) solid 2px;
-  background-image: url(../images/travel_blog.svg);
   background-size: cover;
-  background-position: center;
-  position: relative;
+  background-position: top left;
+  background-image: url(../images/travel_blog.svg);
 }
 
-.work1 p,
-.work2 p,
-.work3 p,
-.work4 p {
-  position: absolute;
-  left: 0;
-  bottom: 20px;
-  padding: 20px;
-  background-color: var(--quaternary-color);
-  color: var(--tertiary-color);
+.work-text {
+  padding: 25px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.work-text h2 {
+  font-size: 40px;
+  padding-bottom: 5px;
+}
+
+.work-text h3 {
   font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.work-text p {
+  padding-bottom: 25px;
+  font-size: 18px;
+  line-height: 1.25;
 }
 
 .click {
-  margin-top: 20px;
   text-align: center;
 }
 
@@ -229,6 +205,25 @@ header {
   background-color: var(--quaternary-color);
 }
 
+.recent-work-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 30px;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.recent-work-nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.recent-work-nav a:hover {
+  color: var(--primary-color);
+}
+
 /* CONTACT ME SECTION */
 .contact {
   margin: 15px 30px;
@@ -241,6 +236,7 @@ header {
 .contact h1 {
   font-size: 50px;
   text-align: left;
+  font-family: brownsugar, serif;
 }
 
 .links {
@@ -272,6 +268,10 @@ header {
   justify-content: space-evenly;
   align-items: left;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.email h1 {
+  font-family: brownsugar, serif;
 }
 
 .link-list {
@@ -327,6 +327,10 @@ footer {
   }
 
   .link-list {
+    flex-direction: column;
+  }
+
+  .new-work1 {
     flex-direction: column;
   }
 }

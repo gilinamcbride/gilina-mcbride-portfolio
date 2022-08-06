@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gilina McBride Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
@@ -15,8 +18,8 @@
         alt="gilina mcbride logo"
         style="width: 300px; height: 300px"
       />
-      <a class="work-nav" href="#work-section">My Work</a>
-      <a class="contact-nav" href="#contact">Let's Connect</a>
+      <a class="work-nav" href="./work.html" target="_blank">My Work</a>
+      <a class="contact-nav" href="./assets/images/resume.pdf" target="_blank">Resume</a>
     </header>
     <!-- section with info in one block and photo in other -->
     <section class="about-me">
@@ -38,32 +41,31 @@
         <h1>Recent Work</h1>
       </div>
       <!-- work examples with link to github to see more -->
-      <div class="work">
-        <section class="work-example">
-          <a href="https://gilinamcbride.github.io/weather-dashboard/" target="_blank"><div class="work1">
-            <p>HTML, CSS & Third Party APIs</p>
-          </div></a>
-        </section>
-        <section class="work-example">
-          <a href="https://gilinamcbride.github.io/pregame/" target="_blank"><div class="work2">
-            <p>Tailwind, Javascript & Third Party APIs</p>
-          </div></a>
-        </section>
-        <section class="work-example">
-          <a href="https://guarded-plains-27828.herokuapp.com/" target="_blank"><div class="work3">
-            <p>Node.js, MySQL, Sequelize, Express.js</p>
-          </div></a>
-        </section>
-        <section class="work-example">
-          <a href="https://sheltered-cliffs-36049.herokuapp.com/" target="_blank"> <div class="work4">
-            <p>Node.js, Sequelize, Heroku, Express-Session</p>
-          </div></a>
-        </section>
-      </div>
-      <div class="click">
-        <a href="https://github.com/gilinamcbride" target="_blank"
-        ><button type="button" class="button">More Work On Github</a
-      ></div>
+        <section class="new-work1">
+          <div class="work-photo">
+              <a href="https://sheltered-cliffs-36049.herokuapp.com/" target="_blank"> <div class="work4"></div></a>
+          </div>
+          <div class="work-text">
+            <h2>Out Of Office</h2>
+            <h3>Node.js, Sequelize, Heroku, Express-Session</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              possimus, reiciendis magni explicabo quis sunt dignissimos nihil
+              consequuntur distinctio, voluptates dolore vel error aliquid odio
+              labore provident repellat facere. Autem.
+            </p>
+            <div class="click">
+              <a href="https://github.com/gilinamcbride/travel-blog.git" target="_blank"
+              ><button type="button" class="button">View Github Repository</a
+            ></div>
+          </div>
+      </section>
+  
+      <div class="recent-work-nav">
+        <div><a href="https://github.com/gilinamcbride" target="_blank"
+          >&larr; More Work On Github</a></div>
+          <div><a class="work-btn" href="./work.html" target="_blank">View All Work &rarr;</a></div>
+    </div>
     </main>
     <!-- section with all info links and other block and working together -->
     <section id="contact" class="contact">
