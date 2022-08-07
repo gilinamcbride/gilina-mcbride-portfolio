@@ -16,7 +16,7 @@
   --quaternary-color: #f8b0bf;
 }
 
-/* body styles */
+/* BODY STYLES */
 body {
   font-family: "Old Standard TT", serif;
   background-color: var(--secondary-color);
@@ -98,7 +98,7 @@ header {
 }
 
 .personal-info p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .photo {
@@ -402,5 +402,17 @@ footer {
 
   .email p {
     margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .recent-work-nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons img {
+    flex-direction: column;
   }
 }
