@@ -17,3 +17,5 @@ My application displays a portfolio of my work samples, resume, and contact info
 ## Questions?
 
 For any questions, please email gilinamcbride@gmail.com, or visit any other projects on Github.
+
+
